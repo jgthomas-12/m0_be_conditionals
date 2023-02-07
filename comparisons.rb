@@ -61,20 +61,32 @@ puts " "
 
 puts 4 < 9
 #YOU DO: Explain.
+# This puts statement evaluates if the integer 4 is less than the integer 9 using the relational operator 
+# "greater than". The boolean result equates to and will print the value "true". 
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# First the books variable is assigned the integer 3. 
+# Second the puts statement evaluates if the integer 4 is less than the value assingned to the variable 
+# "books" using the "less than" operator. The boolean result equates to and will print the value "false".
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# The friends variable is assigned the integer 6 and the siblings variable is assinged the integer 2. 
+# The puts statement compares the two variables friends and siblings, resepctively, using the relational 
+# operator "greater than". The boolean result equates to and will print the value "true" because 6 is indeed
+# larger than 2. 
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
+# This problem assings the integer 9 to the attendees variable and the integer 8 to the meals variable. 
+# A puts statement compares the variable attendees to the variable meals using the relational operator
+# "not equal to". The boolean result equates to and will print the value "true".
 
 puts " "
 #-------------------
