@@ -107,17 +107,22 @@ loves_dog_park = false
 loves_treats = true
 age = 1
 
+puts " "
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-
+puts loves_to_play && age && loves_dog_park
+puts loves_to_play || age
+puts age || loves_to_play
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: The code printed a value of "1". After adding another variable on the end it seems like the puts statement
+# is printing the value of the last variable in the statement. Perhaps an integer cannot be boolean value so it returns
+# the number instead.  
